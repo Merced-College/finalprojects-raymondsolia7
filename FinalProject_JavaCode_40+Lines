@@ -48,7 +48,18 @@ public class Calculator implements ActionListener{
 		fuctionButtons[5] = equButton;
 		fuctionButtons[6] = delButton;
 		fuctionButtons[7] = clrButton;
-		
+
+		for(int i =0;i<8;i++) {
+		    functionButtons[i].addActionLister(this);
+		    functionButtons[i].setFont);
+		    functionButtons[i].setFocusable(False);
+		}
+
+		for(int i =0;i<10;i++) {
+		    numberButtons[i] = new JButton(String.valueOf(i));
+		    numberButtons[i].addAction
+
+		}
 		
 		
 		frame.add(textfield);
