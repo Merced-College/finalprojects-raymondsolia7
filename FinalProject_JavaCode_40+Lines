@@ -1,0 +1,112 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class Calculator implements ActionListener{
+	
+	JFrame frame;
+	JTextField textfield;
+	JButton[] numberButtons = new JButton[10];
+	JButton[] functionButtons = new JButton[8];
+	JButton addButton,subButton,mulButton,divButton;
+	Jbutton decButton, equButton, delButton, clrButton;
+	JPanel panel;
+	
+	Font myFont = new Font("Ink Free",Font.BOLD,30);
+	
+	double num1=0,num2=0,result=;
+	char operator;
+	
+	Calculator(){
+		
+		frame = new Jframe("Calculator");
+		frame.SetDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(420, 550);
+		frame.setLayout(null);
+		
+		textfield = new JTextField();
+		textfield.setBounds(50, 25, 300, 50);
+		textfield.setFont(f);
+		
+		
+		addButton = new JButton("+");
+		subButton = new Jbutton("-");
+		mulButton = new Jbutton("*");
+		divButton = new JButton("/");
+		decButton = new JButton(".");
+		equaButton = new JButton("=");
+		delButton = new JButton("Delete");
+		addButton = mew JButton("CLR");
+		
+		
+		
+		fuctionButtons[0] = addButton;
+		fuctionButtons[1] = subButton;
+		fuctionButtons[2] = mulButton;
+		fuctionButtons[3] = divButton;
+		fuctionButtons[4] = decButton;
+		fuctionButtons[5] = equButton;
+		fuctionButtons[6] = delButton;
+		fuctionButtons[7] = clrButton;
+		
+		
+		
+		frame.add(textfield);
+		frame.setVisible(true);
+	}
+		
+	public static void main(String[] args) {
+		
+		Calculator calc = new Calculator();
+	}
+		
+	
+	
+	
+		JFrame frame;
+	JTextField textfield;
+	JButton[] numberButtons = new JButton[10];
+	JButton[] functionButtons = new JButton[8];
+	JButton addButton, subButton,mulButton,divButton;
+	Jbutton decButton, equButton, delButton, clrButton;
+	JPanel panel;
+	
+	   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
